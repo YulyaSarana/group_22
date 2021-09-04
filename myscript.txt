@@ -1,0 +1,8 @@
+#1/bin/bash
+cd qa
+mkdir {lecture1,lecture2,lecture3}
+cd lecture1
+touch text1.txt text2.txt text3.txt text4.json text5.json
+mkdir {video,images,music}
+ls
+mv {text1.txt,text2.txt} ../lecture2
